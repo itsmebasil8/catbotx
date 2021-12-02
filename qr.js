@@ -1,5 +1,5 @@
 /* Copyright (C) 2020 Yusuf Usta.
-PINKY V2
+CATBOT
 */
 
 const chalk = require('chalk');
@@ -10,7 +10,7 @@ const fs = require('fs');
 async function whatsAsena () {
     const conn = new WAConnection();
     const Session = new StringSession();  
-    conn.version = [2, 2119, 6]
+    conn.version = [3, 3234, 9]
     conn.logger.level = 'warn';
     conn.regenerateQRIntervalMs = 50000;
     
