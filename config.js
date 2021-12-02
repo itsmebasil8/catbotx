@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-re edited by afnan-cat  
-PINKY V2 
+re edited by basilser  
+CATBOT 
 */
 
 const { Sequelize } = require('sequelize');
@@ -24,7 +24,7 @@ module.exports = {
     THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
     AFN: process.env.ALL_CAPTION === undefined ? 'private bot' : process.env.ALL_CAPTION,
     ALL_LINK_BAN: process.env.ALL_LINK_BAN === undefined ? 'false' : process.env.ALL_LINK_BAN,
-    cat: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
+    plk: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
@@ -33,7 +33,7 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
-    BOTcat: process.env.BOT_NAME === undefined ? 'CATBOT' : process.env.BOT_NAME,
+    BOTplk: process.env.BOT_NAME === undefined ? 'CATBOT' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     FULLEVA: process.env.FULL_EVA === undefined ? 'false' : process.env.FULL_EVA,
     STICKERP: process.env.STICKER_REPLY === undefined ? false : convertToBool(process.env.STICKER_REPLY),
@@ -44,16 +44,16 @@ module.exports = {
     UNMUTEMSG: process.env.UNMUTE_MESSAGE === undefined ? 'default' : process.env.UNMUTE_MESSAGE,
     WORKTYPE: process.env.WORK_TYPE === undefined ? 'private' : process.env.WORK_TYPE,
     PROMOTEMSG: process.env.PROMOTE_MESSAGE === undefined ? 'default' : process.env.PROMOTE_MESSAGE,
-    catBGM: process.env.CHANGE_BGM_TO === undefined ? 'one' : process.env.CHANGE_BGM_TO,
+    plkBGM: process.env.CHANGE_BGM_TO === undefined ? 'one' : process.env.CHANGE_BGM_TO,
     DEMOTEMSG: process.env.DEMOTE_MESSAGE === undefined ? 'default' : process.env.DEMOTE_MESSAGE,
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
-    TAGcat: process.env.TAG_HEADER === undefined ? 'cat' : process.env.TAG_HEADER,
-    catS: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
+    TAGplk: process.env.TAG_HEADER === undefined ? 'plk' : process.env.TAG_HEADER,
+    plkS: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     MAHN: process.env.MAAN === undefined ? '919072790587,0' : process.env.MAAN, //dont change thise , if you change this some plugins created by me might not work for others or might have error ( bcoz this is a api key )
-    BRANCH: 'master',
+    BRANCH: 'catbot',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
