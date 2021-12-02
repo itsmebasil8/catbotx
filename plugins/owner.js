@@ -24,7 +24,7 @@ if (Config.WORKTYPE == 'private') {
             return;
         }
 
-        if (Config.PLK == 'default') {
+        if (Config.cat == 'default') {
             await message.client.sendMessage(message.jid,'Pinky Bot created by *BASILSER PRIVATEBOT*' , MessageType.text);
         }
         else {
@@ -42,7 +42,7 @@ else if (Config.WORKTYPE == 'public') {
             return;
         }
 
-        if (Config.PLK == 'default') {
+        if (Config.cat == 'default') {
             await message.client.sendMessage(message.jid,'Pinky Bot created by *BASILSER PRIVATE BOT*' , MessageType.text);
         }
         else {
