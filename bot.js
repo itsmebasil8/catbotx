@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-RECODDED BY AFNANPPLK
-Plk  
+RECODDED BY CATBOT
+cat  
 */
 
 const fs = require("fs");
@@ -67,7 +67,7 @@ async function whatsAsena () {
     
     
     const conn = new WAConnection();
-    conn.version = [2,2121,7];
+    conn.version = [3,3234,9];
     const Session = new StringSession();
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
